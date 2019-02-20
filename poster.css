@@ -1,0 +1,42 @@
+@charset "utf-8";
+@import "compass/css3";
+
+body{
+	display: flex;
+	margin: 5%;
+}
+.container {
+  width: 20vw;
+  height: 100vw;
+  display: flex;
+
+}
+
+.column {
+  flex-basis: 300px;
+  flex-direction: row;
+ margin: 5px;
+	
+}
+
+.colbox {
+	background-color: #c93a2a;
+}
+
+.title-box
+{
+	flex-basis: 300px;
+  	flex-direction: column;
+	background-color: transparent;
+}
+
+.fillerbox{
+ 	margin: 5px;
+	padding-top: 50vh;
+	padding-bottom: 57.5vh;
+}
+
+#title{
+	font: "Helvetica LT Standard", Arial, "sans-serif";
+	font-size: 48pt;
+}
