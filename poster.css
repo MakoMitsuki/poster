@@ -1,22 +1,33 @@
 @charset "utf-8";
 @import "compass/css3";
 
+@font-face {
+	font-family:"Helvetica LT Standard";
+	src:url("./HelveticaLTStd-Bold.otf");
+}
+
+@font-face {
+	font-family: 'Montserrat Regular';
+	src: url("./Montserrat-Regular.otf");
+}
+
 body{
-	display: flex;
-	margin: 5%;
+	min-height: 100%;
+}
+main{
+		display: flex;
+	margin: 3%;
 }
 .container {
-  width: 20vw;
-  height: 100vw;
+  width: 15vw;
   display: flex;
-
+	min-height: 100vh;
 }
 
 .column {
-  flex-basis: 300px;
+  flex-basis: 100px;
   flex-direction: row;
  margin: 5px;
-	
 }
 
 .colbox {
@@ -32,11 +43,17 @@ body{
 
 .fillerbox{
  	margin: 5px;
-	padding-top: 50vh;
-	padding-bottom: 57.5vh;
+	padding-left: 10px;
 }
 
 #title{
-	font: "Helvetica LT Standard", Arial, "sans-serif";
-	font-size: 48pt;
+	font-family: 'Helvetica LT Standard', Arial, "sans-serif";
+	font-color: black;
+	font-size: 72pt;
+}
+
+#subtitle{
+	
+	font-family: Arial, "sans-serif";
+	font-size: 11pt;
 }
