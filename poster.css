@@ -63,7 +63,7 @@ main{
 	position: relative;
 	top: -7px;
 	font-family: Arial, "sans-serif";
-	font-size: 15pt; 
+	font-size: 18pt; 
 }
 
 #six{
@@ -99,6 +99,6 @@ main{
 }
 
 #filler{
-	padding-left: 60px;
-	padding-right: 55px;
+	padding-left: 45px;
+	padding-right: 50px;
 }
