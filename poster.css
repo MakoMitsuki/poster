@@ -6,28 +6,25 @@
 	src:url("./HelveticaLTStd-Bold.otf");
 }
 
-@font-face {
-	font-family: 'Montserrat Regular';
-	src: url("./Montserrat-Regular.otf");
-}
-
 body{
 	min-height: 100%;
 }
+
 main{
-		display: flex;
+	display: flex;
 	margin: 3%;
 }
+
 .container {
-  width: 15vw;
-  display: flex;
+  	width: 15vw;
+  	display: flex;
 	min-height: 100vh;
 }
 
 .column {
-  flex-basis: 100px;
-  flex-direction: row;
- margin: 5px;
+	flex-basis: 100px;
+	flex-direction: row;
+	margin: 5px;
 }
 
 .colbox {
@@ -43,17 +40,65 @@ main{
 
 .fillerbox{
  	margin: 5px;
-	padding-left: 10px;
+	padding-left: 25px;
+	display-inline: flex;
+}
+
+#one{
+	height: 10%;
+}
+
+#three{
+	height: 40%;
+}
+
+#four{
+	font-weight: bolder;
+	font-family: 'Helvetica LT Standard', Helvetica, Arial, "sans-serif";
+	font-size: 28px;
+}
+
+#five
+{
+	position: relative;
+	top: -7px;
+	font-family: Arial, "sans-serif";
+	font-size: 15pt; 
+}
+
+#six{
+	position: relative;
+	font-family: Arial, "sans-serif";
+	font-weight: bolder;
+	top: -12px;
 }
 
 #title{
 	font-family: 'Helvetica LT Standard', Arial, "sans-serif";
-	font-color: black;
-	font-size: 72pt;
+	font-size: 76pt;
+	position: relative;
+	right: 10px;
 }
 
 #subtitle{
-	
+	position: relative;
+	top: -12px;
 	font-family: Arial, "sans-serif";
 	font-size: 11pt;
+}
+
+.subsubtitle{
+	position: relative;
+	top: -5px;
+	font-size: 9pt;
+	line-height: -10px;
+}
+
+#date-divider{
+	color: #c93a2a;
+}
+
+#filler{
+	padding-left: 60px;
+	padding-right: 55px;
 }
