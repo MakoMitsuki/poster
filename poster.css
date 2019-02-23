@@ -2,9 +2,9 @@
 @import "compass/css3";
 
 @font-face {
-	font-family:"Helvetica LT Standard";
-	src:url("./HelveticaLTStd-Bold.otf"),
-		url("./HelveticaLTStd-Bold.eot?#iefix") format('embedded-opentype');
+	font-family:"helvetica";
+	src: url("./helvetica.eot"),
+		url("./HelveticaLTStd-Bold.otf");
 }
 
 body{
@@ -46,7 +46,13 @@ main{
 }
 
 #one{
-	height: 10%;
+	flex-grow: 1;
+	font-family: 'hevetica', Arial, "sans-serif";
+	font-weight: bolder;
+	font-size: 8px;
+	writing-mode: vertical-rl;
+	/*transform: rotate(180deg);*/
+	text-orientation: mixed;
 }
 
 #three{
@@ -55,7 +61,7 @@ main{
 
 #four{
 	font-weight: bolder;
-	font-family: 'Helvetica LT Standard', Helvetica, Arial, "sans-serif";
+	font-family: 'helvetica', Helvetica, Arial, "sans-serif";
 	font-size: 28px;
 }
 
@@ -75,7 +81,7 @@ main{
 }
 
 #title{
-	font-family: 'Helvetica LT Standard', Arial, "sans-serif";
+	font-family: 'helvetica', Arial, "sans-serif";
 	font-size: 76pt;
 	position: relative;
 	right: 10px;
