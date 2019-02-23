@@ -3,7 +3,8 @@
 
 @font-face {
 	font-family:"Helvetica LT Standard";
-	src:url("./HelveticaLTStd-Bold.otf"), url("./HelveticaLTStd-Bold.eot");
+	src:url("./HelveticaLTStd-Bold.otf"),
+		url("./HelveticaLTStd-Bold.eot?#iefix") format('embedded-opentype');
 }
 
 body{
