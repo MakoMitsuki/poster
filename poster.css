@@ -2,8 +2,8 @@
 @import "compass/css3";
 
 @font-face {
-	font-family:"helvetica";
-	src: url("./helvetica.eot"),
+	font-family:"HelveticaLTStd-Bold";
+	src: url("./HelveticaLTStd-Bold.eot"),
 		url("./HelveticaLTStd-Bold.otf");
 }
 
@@ -47,7 +47,7 @@ main{
 
 #one{
 	flex-grow: 1;
-	font-family: 'helvetica', Arial, "sans-serif";
+	font-family: 'HelveticaLTStd-Bold', Arial, "sans-serif";
 	font-weight: bolder;
 	font-size: 8px;
 	writing-mode: vertical-rl;
@@ -61,7 +61,7 @@ main{
 
 #four{
 	font-weight: bolder;
-	font-family: 'helvetica', Helvetica, Arial, "sans-serif";
+	font-family: 'HelveticaLTStd-Bold', Helvetica, Arial, "sans-serif";
 	font-size: 28px;
 }
 
@@ -81,7 +81,7 @@ main{
 }
 
 #title{
-	font-family: 'helvetica', Arial, "sans-serif";
+	font-family: 'HelveticaLTStd-Bold', Arial, "sans-serif";
 	font-weight: bolder;
 	font-size: 76pt;
 	position: relative;
