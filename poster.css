@@ -51,6 +51,7 @@ main{
 	font-weight: bolder;
 	font-size: 8px;
 	writing-mode: vertical-rl;
+	-ms-writing-mode: tb-rl;
 	/*transform: rotate(180deg);*/
 	text-orientation: mixed;
 }
