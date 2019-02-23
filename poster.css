@@ -3,7 +3,7 @@
 
 @font-face {
 	font-family:"Helvetica LT Standard";
-	src:url("./HelveticaLTStd-Bold.otf");
+	src:url("./HelveticaLTStd-Bold.otf"), url("./HelveticaLTStd-Bold.eot");
 }
 
 body{
@@ -49,7 +49,7 @@ main{
 }
 
 #three{
-	height: 40%;
+	flex-grow: 1;
 }
 
 #four{
